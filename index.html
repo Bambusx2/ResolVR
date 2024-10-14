@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ResolVR IT Services offers top-notch solutions.">
+    <title>ResolVR IT Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#" style="text-decoration: none; color: inherit;">
+                  ResolVR
+                </a>
+              </div>
+            <ul class="nav-links">
+                <li><a href="#services" class="nav-item">Services</a></li>
+                <li><a href="#about" class="nav-item">About Us</a></li>
+                <li><a href="#team" class="nav-item">Team</a></li>
+                <li><a href="#tech-stack" class="nav-item">Technology</a></li>
+                <li><a href="#contact" class="nav-item" id="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="hero-section"></section>
+        <section id="services-section"></section>  
+        <section id="about-section"></section>
+        <section id="team-section"></section> 
+        <section id="tech-stack-section"></section>
+    </main>
+
+    <div id="contactModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1>Contact Us</h1>
+          <form id="contact-form">
+              <div class="form-group">
+                  <label for="name">Your Name:</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                  <label for="email">Your Email:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+      </div>
+  </div>
+  
+
+    <footer class="footer">
+        <p>&copy; 2024 ResolVR IT Services. All rights reserved.</p>
+        <ul class="footer-nav">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#tech-stack">Technology</a></li>
+        </ul>
+        <div class="footer-social">
+            <a href="#" aria-label="Go to Facebook page" role="button"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Go to Twitter page" role="button"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Go to Instagram page" role="button"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Go to Linkedin page" role="button"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    
+
+    <script src="/script/script.js"></script>
+</body>
+</html>
